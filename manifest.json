@@ -1,0 +1,15 @@
+{
+  "short_name": "UDN Wiki",
+  "name": "UDN Wiki",
+  "icons": [
+		{
+		"src":"/static/icon.png",
+		"sizes": "512x512",
+		"type": "image/png"
+		}
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#e05a47",
+  "theme_color": "#e05a47",
+  "display": "standalone"
+}

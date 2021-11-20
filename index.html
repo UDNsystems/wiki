@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UDN Wiki</title>
+	<nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sysdocs">System Documentation</a></li>
+      <li><a href="#origins">Origins</a></li>
+    </ul>
+  </nav>
+	<center><a href="#home"><img src="/static/udn-wiki.png" title="Visit the main page"/></a></center>
+	<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+	
+	<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.3.1/styles/vs.min.css">
+	<script src="https://unpkg.com/@highlightjs/cdn-assets@11.3.1/highlight.min.js"></script>	
+	<link
+		rel="stylesheet"
+		data-name="vs/editor/editor.main"
+		href="./monaco/min/vs/editor/editor.main.css"
+	/>
+	<link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+	<br><br><br><br>
+	<div id="pageContainer">
+		<div id="modcontrols" hidden>
+			<a href="javascript:void(0)" id="edit">Edit</a>
+			<a href="javascript:void(0)" id="newpage">New page</a>
+			<a href="javascript:void(0)" id="delpage">Delete page</a>
+			
+		</div>
+
+		<a href="javascript:void(0)" id="login">Login</a>
+		<div id="page"></div>
+	</div>
+	<div id="editor" hidden>
+		<a href="javascript:void(0)" id="save">Save </a>
+		<a href="javascript:void(0)" id="cancel">Cancel</a>
+		<div id="container" style="width: 100%; height: 400px;"></div>
+	</div>
+	<script>
+		var require = { paths: { vs: './monaco/min/vs' } };
+	</script>
+	<script src="./monaco/min/vs/loader.js"></script>
+	<script src="./monaco/min/vs/editor/editor.main.nls.js"></script>
+	<script src="./monaco/min/vs/editor/editor.main.js"></script>
+	<script src="./static/script.js"></script>
+	<script src="./static/xlink.js"></script>
+	<script>
+		navigator.serviceWorker.getRegistrations().then(x => x.forEach(y => y.unregister()))
+  </script>
+</body>
+</html>

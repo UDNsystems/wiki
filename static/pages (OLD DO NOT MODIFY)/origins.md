@@ -1,0 +1,18 @@
+First, i need to tell you something.UDN and UDN systems are not the same, let me tell you about why i chose UDN systems as the name of this Brython WebOS.  
+So first UDN, stands for Universal Duck Network, you probably already knew that. It comes from pyduck so let me tell you about pyduck a bit.  
+Pyduck is a bot, now multiplatform (kinda) made originally by me and NT_Cat and started on rmtb. It was maybe the first rmtb bot with python atleast that is what i thought which is why i named it pyduck.  
+I was thonking about what the function of the bot was and then it clicked, i wanted to make a port, not on one platform that makes a global chat on one platform. But on multiple platforms.  
+I wanted to make a centralized server for diffrent nodes of pyduck, we thought of a mineflayer bot connected to it so it is also in mc... I never finished it and the mineflayer bot never came but the idea of a multi repl network of bots communicating which each other and chatting which each other was still in my head. But not all for chatting but instead every node having a other purpose, it can be the same or diffrent.  
+There are currently 3 (well 2 because 1 is ducked), pyduck is the "centralized server". Its keepalive is multipurpose, its used to well keepalive and also to send or receive data but its still pretty decentralized because 1 of the 3 also had a server.The 3 nodes were UDN systems (duh, this), pyduck and quackency which was a currency i made as a test and later purposed for pyduck but its too buggy and isnt released yet  
+PS. the real name was "the python duck" before and it got changed to "pyduck" when bot badges were added because then the bot badge didnt fit, was later fixed ofcourse but just to point out  
+So when the Discord Bot was created its application name was idk i forgor 💀  
+but later when we got the idea of that network thing, we decided to name it "Universal Duck Network". Its like that still to this day.  
+  
+Now you know where the UDN part is from. Still why did i name it this?  
+like alot of webosses its because of something else. Funfact this is not the first webos i ever built, well its the one that is doing good and the others arent finished yet.  
+So i was just invited to HEXEc, i was looking arround the source code until i noticed something... IDE.html, i looked in it and saw code for a code editor, i also noticed "brython" being in there.  
+Me being a curious boi, i googled brython and got the link to the documentation.  
+It stands for Browser Python and my first language was Python so i thought could i make a webos with this new found technology. And so, repl testos has been created. im almost done i promiz.  
+So, brand new HTML CSS JS repl, except its gonna be a HTML CSS PY or BRY repl. 2 Files created and 1 Folder, boot.py and BOS.py (basic output system) in folder scripts. I load the brython stuff and get everything setup and it works! Few minutes later and nicejsisverycool is here. He thought it would be a good idea to put the BOS.py truly in JS and make the purpose of BOS.py would be to use it in brython. I think the commented out code of the BOS is still there. Next time i add is the Desktop and for this i need a wallpaper, because i wasnt on my PC, i didnt really have any good editing software anyways so i went with MS paint.  
+I tried to make the Universal Duck Network, the Q is quackency, the pyduck logo is there with little nodes connected to it being the multiplatform and then the logo of udnsys, i dont have to explain.  
+Later more people wanted to join and i just let them in and that is basicly where we are at now.
